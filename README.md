@@ -43,7 +43,7 @@ tesseract --version
 
 ## Run
 ```powershell
-streamlit run app.py
+streamlit run main.py
 ```
 Streamlit will print a local URL, usually `http://localhost:8501`.
 
@@ -54,7 +54,7 @@ The app creates `data/vehicle_entries.db` and `data/uploads/`. These contain veh
 After creating a GitHub repository and configuring its HTTPS remote:
 
 ```powershell
-git add app.py requirements.txt README.md .gitignore
+git add main.py requirements.txt README.md .gitignore
 git commit -m "Build PlateWatch vehicle entry application"
 git push -u origin main
 ```
